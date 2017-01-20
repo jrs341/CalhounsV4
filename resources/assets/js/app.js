@@ -18,3 +18,39 @@ Vue.component('example', require('./components/Example.vue'));
 const app = new Vue({
     el: '#app'
 });
+
+Vue.component('pet', require('./components/AnyPets.vue'));
+
+const pets = new Vue({
+    el: '#pets'
+});
+
+Vue.component('dailyWeeklyMonthly', require('./components/DailyWeeklyMonthly.vue'));
+
+const app = new Vue({
+    el: '#app'
+});
+
+Vue.component('dogBreed', require('./components/DogBreed.vue'));
+
+const app = new Vue({
+    el: '#app'
+});
+
+Vue.component('numAdults', require('./components/NumAdults.vue'));
+
+const app = new Vue({
+    el: '#app'
+});
+
+Vue.component('rvOrCabin', require('./components/RvOrCabin.vue'));
+
+const app = new Vue({
+    el: '#app'
+});
+
+Vue.component('submitButtom', require('./components/SubmitButton.vue'));
+
+const app = new Vue({
+    el: '#submit'
+});
