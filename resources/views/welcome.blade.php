@@ -9,6 +9,9 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+        <!-- Initializing the Square Payment Form **** Note must use the Square hosted version of the library -->
+        
+        <script type="text/javascript" src="https://js.squareup.com/v2/paymentform"></script>
 
         <!-- Styles -->
         <style>
